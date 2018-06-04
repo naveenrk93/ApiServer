@@ -1,0 +1,17 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "Api Server for My very own authenticated App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naveen Ramkumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4",
+    "morgan": "^1.9.0"
+  }
+}
