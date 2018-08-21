@@ -4,7 +4,7 @@ PLease create a config file with your personal secret
 
 something like this :
 
-###config.js
+### config.js
 ```
 module.exports = {
     secret: 'ABCDEFGH1234567'
