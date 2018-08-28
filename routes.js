@@ -33,4 +33,8 @@ module.exports = function(app){
         console.log("Success!!!");
     });
 
+    app.get('/ssocallback', function (req, res) {
+       console.log(JSON.stringify(req));
+    });
+
 };
